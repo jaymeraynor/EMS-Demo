@@ -1,0 +1,19 @@
+# 機密與環境變數
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*-credentials.json
+
+# 依賴與產物
+node_modules/
+__pycache__/
+*.pyc
+*.log
+logs/
+data/
+
+# 本機資料庫與備份
+*.sqlite
+*.dump
